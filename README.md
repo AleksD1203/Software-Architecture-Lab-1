@@ -44,7 +44,7 @@ pip install fastapi uvicorn PyJWT pydantic[email] pytest httpx
 ### 2. Запуск сервера
 Запустіть локальний сервер за допомогою uvicorn:
 ```bash
-uvicorn main:app --reload
+python -m uvicorn main:app --reload
 ```
 
 Після успішного запуску інтерактивна документація (Swagger UI) з можливістю тестування API буде доступна за адресою:  
